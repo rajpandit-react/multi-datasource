@@ -1,0 +1,18 @@
+server:
+  port: 8888
+
+datasource:
+  boxes:
+    - box1
+    - box2
+
+  accUrl:
+   - jdbc:mysql://localhost:3306/Accounts
+   - jdbc:mysql://172.17.0.2:3306/Accounts
+
+  invUrl:
+    - jdbc:mysql://localhost:3306/Inventory
+    - jdbc:mysql://172.17.0.2:3306/Inventory
+
+  username: root
+  password: Mysql@841287
